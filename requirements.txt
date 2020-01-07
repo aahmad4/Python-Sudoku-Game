@@ -1,1 +1,2 @@
-pygame
+Must have pygame
+To install run `pip install pygame` in the command line
