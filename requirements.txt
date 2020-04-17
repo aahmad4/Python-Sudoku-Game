@@ -1,2 +1,1 @@
-Must have pygame
-To install run `pip install pygame` in the command line
+pygame==1.9.6
