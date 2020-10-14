@@ -1,32 +1,12 @@
-# Sudoku Player and Solver
+<h1 align="center">Sudoku Solver</h1> 
+
+<p align="center">
 A classic game of Sudoku made in Pygame which uses the backtracking algorithm to visualize the board solving itself. Users can choose to either play Sudoku normally by entering in numbers. If the user presses the space bar, the backtracking algorithm begins and the board will gradually solve the complete board. The whole process is timed. 
+</p>
 
-## Clone
-```bash
-git clone https://github.com/aahmad4/Sudoku-Game-AI-Solver
-```
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required packages.
-
-```bash
-pip install -r requirements.txt
-```
-## Usage
-
-Start Game:
-```
-python pythonSudoku.py	
-```
-Play:
-```bash
-Click on a box: Enter a number. Hit enter to confirm input. Hit the `Del` key to cancel your input.
-```
-Solve:
-```bash
-Press the space bar and the board will start visualizing and solving itself.
-```
+<p align="center">
+A link to an online demo version can be found here: <a href="https://repl.it/@aahmad4/Sudoku" target="_blank">repl.it/@aahmad4/Sudoku</a>
+</p>
 
 ## Implementation
 
@@ -45,6 +25,39 @@ class Grid:
         [0, 4, 9, 2, 0, 6, 0, 0, 7]
     ]
 ```
+
+## Setup
+
+#### Clone
+```bash
+git clone https://github.com/aahmad4/Sudoku-Solver
+```
+
+#### Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required packages.
+
+```bash
+pip install -r requirements.txt
+```
+#### Usage
+```
+cd Sudoku-Solver
+```
+
+Start Game:
+```
+python pythonSudoku.py	
+```
+Play:
+```bash
+Click on a box: Enter a number. Hit enter to confirm input. Hit the `Del` key to cancel your input.
+```
+Solve:
+```bash
+Press the space bar and the board will start visualizing and solving itself.
+```
+
 
 ## Contributing
 
